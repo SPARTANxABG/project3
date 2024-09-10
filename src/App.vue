@@ -69,7 +69,9 @@
         <div v-for="x in myArray" :class="`todo-item ${x.done ? 'done' : 'not-done'}`" :key="x">
 
           <div class="todo-content">
+            <h5>Phone</h5>
             <input type="text" v-model="x.content"/>
+            <h6>Name</h6>
             <input type="text" v-model="x.category"/>
           </div>
 
