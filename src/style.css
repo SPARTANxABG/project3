@@ -163,7 +163,7 @@ h4 {
 }
  
  
-.create-todo input[type="text"] {
+.create-contact input[type="text"] {
 	display: block;
 	width: 100%;
 	font-size: 1.125rem;
@@ -176,7 +176,7 @@ h4 {
 }
  
  
-.create-todo .options {
+.create-contact .options {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 1rem;
@@ -184,7 +184,7 @@ h4 {
 }
  
  
-.create-todo .options label {
+.create-contact .options label {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -247,14 +247,14 @@ input:checked ~ .bubble::after {
 }
  
  
-.create-todo .options label div {
+.create-contact .options label div {
 	color: var(--dark);
 	font-size: 1.125rem;
 	margin-top: 1rem;
 }
  
  
-.create-todo input[type="submit"] {
+.create-contact input[type="submit"] {
 	display: block;
 	width: 100%;
 	font-size: 1.125rem;
@@ -268,17 +268,17 @@ input:checked ~ .bubble::after {
 }
  
  
-.create-todo input[type="submit"]:hover {
+.create-contact input[type="submit"]:hover {
 	opacity: 0.75;
 }
  
  
-.todo-list .list {
+.contact-list .list {
 	margin: 1rem 0;
 } 
  
  
-.todo-list .todo-item {
+.contact-list .todo-item {
 	display: flex;
 	align-items: center;
 	background-color: #FFF;
