@@ -47,7 +47,7 @@
 
     <section class="greeting">
       <h2 class="title">
-        Welcome back, <input type="text" placeholder="Enter Name" v-model="name">
+        Welcome back: <input type="text" placeholder="Enter Name" v-model="name">
       </h2>  
     </section>
 
