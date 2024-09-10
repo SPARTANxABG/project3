@@ -145,6 +145,7 @@ h4 {
  
 .greeting .title {
 	display: flex;
+	flex-direction: column;
 }
  
  
@@ -160,6 +161,7 @@ h4 {
 	color: var(--dark);
 	font-size: 1.5rem;
 	font-weight: 700;
+	text-align: center;
 }
  
  
